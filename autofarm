@@ -1,5 +1,5 @@
 _G.KVN_OFC = true 
-while _G.KVN_OFC do wait(0.48)if _G.KVN_OFC == false then return end
+while _G.KVN_OFC do wait(0.485)if _G.KVN_OFC == false then return end
 game:GetService("ReplicatedStorage").Remotes.Dumbbell:FireServer()
 
 game:GetService("ReplicatedStorage").Remotes.Pushup:FireServer()
