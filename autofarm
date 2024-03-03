@@ -1,0 +1,11 @@
+_G.KVN_OFC = true 
+while _G.KVN_OFC do wait(0.48)if _G.KVN_OFC == false then return end
+game:GetService("ReplicatedStorage").Remotes.Dumbbell:FireServer()
+
+game:GetService("ReplicatedStorage").Remotes.Pushup:FireServer()
+
+game:GetService("ReplicatedStorage").Remotes.Situp:FireServer()
+
+game:GetService("ReplicatedStorage").Remotes.BenchToggle:FireServer()
+
+end
